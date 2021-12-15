@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    .container {
+        max-width: 1170px !important;
+    }
+    body {
+        font-family: 'Blogger Sans', sans-serif;
+        font-weight: 400;
+        color: #3D3D3D;
+    }
+
+}
+
