@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eb51abd-8f63-4104-9b3c-40f9d9169b3c" name="Changes" comment="" />
+    <list default="true" id="9eb51abd-8f63-4104-9b3c-40f9d9169b3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/card-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/card-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/card-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/card-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/facts-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fir-tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ng-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/santa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/swiper-bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +68,8 @@
       <updated>1639513084119</updated>
       <workItem from="1639513086074" duration="283000" />
       <workItem from="1639513547184" duration="16039000" />
+      <workItem from="1639549912246" duration="630000" />
+      <workItem from="1639554114739" duration="15752000" />
     </task>
     <servers />
   </component>

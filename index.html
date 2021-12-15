@@ -9,38 +9,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/blogger-sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="bg-[#FDF7EB]">
 
 
-<header class="flex h-[99px] border-b-[1px] border-[#E9E9E9]">
+<header class="flex h-[99px] border-b-[1px] border-[#E9E9E9] bg-[#FFFFFF]">
     <div class="container mx-auto">
         <div class="flex flex-row items-center justify-between h-full">
-        <img src="img/logo.svg" alt="">
-        
+            <img src="img/logo.svg" alt="">
 
-        <div class="flex flex-row items-center justify-between">
-            <ul class="flex">
-                <li class="bg-[#FDF7EB] w-[40px] h-[40px] rounded-full flex items-center justify-center cursor-pointer"><img src="img/icons/fb.svg" alt=""></li>
-                <li class="bg-[#FDF7EB] w-[40px] h-[40px] rounded-full flex items-center justify-center ml-[15px] cursor-pointer"><img src="img/icons/vk.svg" alt=""></li>
-                <li class="bg-[#FDF7EB] w-[40px] h-[40px] rounded-full flex items-center justify-center ml-[15px] cursor-pointer"><img src="img/icons/ok.svg" alt=""></li>
-            </ul>
 
-            <a href="tel:+78002222442" class="text-[#353535] text-[25px] font-bold leading-[28px] ml-[50px] flex flex-row items-center font-PTSans">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-[13px]">
-                    <path d="M8.45612 11.4667C9.61584 12.6431 11.0191 13.5514 12.5672 14.1278L14.6617 12.4611C14.7238 12.4184 14.7974 12.3955 14.8728 12.3955C14.9482 12.3955 15.0218 12.4184 15.0839 12.4611L18.9728 14.9667C19.1204 15.0554 19.2454 15.1773 19.3378 15.3227C19.4303 15.468 19.4877 15.6329 19.5055 15.8042C19.5232 15.9756 19.5009 16.1487 19.4403 16.31C19.3797 16.4712 19.2824 16.6162 19.1561 16.7333L17.3339 18.5333C17.0729 18.7912 16.7522 18.9804 16.4003 19.0841C16.0484 19.1879 15.6763 19.2029 15.3172 19.1278C11.7351 18.388 8.43342 16.6553 5.78945 14.1278C3.20417 11.5751 1.41516 8.32715 0.639456 4.77779C0.562826 4.42425 0.578819 4.05692 0.685887 3.71138C0.792954 3.36585 0.987464 3.05383 1.25057 2.80556L3.13946 0.983341C3.25634 0.863223 3.39889 0.771105 3.55643 0.713884C3.71396 0.656664 3.8824 0.635823 4.04913 0.652924C4.21586 0.670024 4.37656 0.724622 4.5192 0.81263C4.66184 0.900638 4.78272 1.01977 4.87279 1.16112L7.46168 5.00001C7.50633 5.06029 7.53044 5.13332 7.53044 5.20834C7.53044 5.28336 7.50633 5.35639 7.46168 5.41668L5.75612 7.46668C6.34811 8.98386 7.27042 10.3502 8.45612 11.4667Z" fill="#FF7A01"/>
-                </svg>
-                8-800-222-24-42</a>
+            <div class="flex flex-row items-center justify-between">
+                <ul class="flex">
+                    <li class="bg-[#FDF7EB] w-[40px] h-[40px] rounded-full flex items-center justify-center cursor-pointer">
+                        <img src="img/icons/fb.svg" alt=""></li>
+                    <li class="bg-[#FDF7EB] w-[40px] h-[40px] rounded-full flex items-center justify-center ml-[15px] cursor-pointer">
+                        <img src="img/icons/vk.svg" alt=""></li>
+                    <li class="bg-[#FDF7EB] w-[40px] h-[40px] rounded-full flex items-center justify-center ml-[15px] cursor-pointer">
+                        <img src="img/icons/ok.svg" alt=""></li>
+                </ul>
+
+                <a href="tel:+78002222442"
+                   class="text-[#353535] text-[25px] font-bold leading-[28px] ml-[50px] flex flex-row items-center font-PTSans">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                         class="mr-[13px]">
+                        <path d="M8.45612 11.4667C9.61584 12.6431 11.0191 13.5514 12.5672 14.1278L14.6617 12.4611C14.7238 12.4184 14.7974 12.3955 14.8728 12.3955C14.9482 12.3955 15.0218 12.4184 15.0839 12.4611L18.9728 14.9667C19.1204 15.0554 19.2454 15.1773 19.3378 15.3227C19.4303 15.468 19.4877 15.6329 19.5055 15.8042C19.5232 15.9756 19.5009 16.1487 19.4403 16.31C19.3797 16.4712 19.2824 16.6162 19.1561 16.7333L17.3339 18.5333C17.0729 18.7912 16.7522 18.9804 16.4003 19.0841C16.0484 19.1879 15.6763 19.2029 15.3172 19.1278C11.7351 18.388 8.43342 16.6553 5.78945 14.1278C3.20417 11.5751 1.41516 8.32715 0.639456 4.77779C0.562826 4.42425 0.578819 4.05692 0.685887 3.71138C0.792954 3.36585 0.987464 3.05383 1.25057 2.80556L3.13946 0.983341C3.25634 0.863223 3.39889 0.771105 3.55643 0.713884C3.71396 0.656664 3.8824 0.635823 4.04913 0.652924C4.21586 0.670024 4.37656 0.724622 4.5192 0.81263C4.66184 0.900638 4.78272 1.01977 4.87279 1.16112L7.46168 5.00001C7.50633 5.06029 7.53044 5.13332 7.53044 5.20834C7.53044 5.28336 7.50633 5.35639 7.46168 5.41668L5.75612 7.46668C6.34811 8.98386 7.27042 10.3502 8.45612 11.4667Z"
+                              fill="#FF7A01"/>
+                    </svg>
+                    8-800-222-24-42</a>
+            </div>
+
         </div>
 
-        </div>
-        
-        
+
     </div>
 </header>
 
-<nav class="flex items-center h-[51px]">
+<nav class="flex items-center h-[51px] bg-[#FFFFFF]">
     <div class="container mx-auto">
         <ul class="flex flex-row items-center justify-between">
             <li class="text-[20px] font-Blogger font-medium"><a href="#">История Гордея</a></li>
@@ -54,11 +61,14 @@
 
 <section class="min-h-[745px] bg-cover bg-hero">
     <div class="container mx-auto relative">
-        <h1 class="font-medium text-[45px] pt-[206px] max-w-[470px] leading-[50px]">Стань секретным Сантой для Гордея!</h1>
-        <p class="pt-[20px] font-normal text-[22px] leading-[32px] max-w-[367px]">Это Гордей. У&nbsp;него волшебная нога:
+        <h1 class="font-medium text-[45px] pt-[206px] max-w-[470px] leading-[50px]">Стань секретным Сантой для
+            Гордея!</h1>
+        <p class="pt-[20px] font-normal text-[22px] leading-[32px] max-w-[367px]">Это Гордей. У&nbsp;него волшебная
+            нога:
             правая короче левой на&nbsp;15&nbsp;см.
             И&nbsp;ему нужна твоя помощь.</p>
-        <a href="#" class="font-medium text-[20px] leading-[45px] text-[#FFFFFF] uppercase inline-block bg-[#FF7A01] rounded-[35px] px-[41px] py-[8px] mt-[48px]">Пожертвовать</a>
+        <a href="#"
+           class="font-medium text-[20px] leading-[45px] text-[#FFFFFF] uppercase inline-block bg-[#FF7A01] rounded-[35px] px-[41px] py-[8px] mt-[48px]">Пожертвовать</a>
         <div class="h-[156px] absolute right-[-145px] top-[50%] mt-[-28px] bg-[#FFFFFF] rounded-[20px] w-[290px] p-[15px]">
 
             <div class="bg-[#FDF7EB] py-[17px] flex flex-col items-center justify-center rounded-[8px]">
@@ -66,7 +76,7 @@
                 <div class="text-[28px] leading-[28px] uppercase font-bold text-[#FF7A01] mt-[6px]">4 047 853 ₽</div>
             </div>
             <div class="bg-[#FFD60C] rounded-[8px] h-[12px] mt-[8px]">
-               <div class="w-[40%] bg-[#FF7A01] h-[12px] rounded-[8px]"></div>
+                <div class="w-[40%] bg-[#FF7A01] h-[12px] rounded-[8px]"></div>
             </div>
             <div class="flex items-center justify-between mt-[8px]">
                 <span class="text-[14px] font-medium leading-[14px]">необходимо собрать</span>
@@ -77,9 +87,232 @@
     </div>
 </section>
 
-<section class="bg-[#FDF7EB]">
-sa
+<section class="">
+    <div class="container mx-auto relative">
+        <div class="grid grid-cols-2 gap-x-[130px] py-[120px]">
+            <div class="">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/slide.png" alt="" class="w-full"></div>
+                        <div class="swiper-slide"><img src="img/slide.png" alt="" class="w-full"></div>
+                        <div class="swiper-slide"><img src="img/slide.png" alt="" class="w-full"></div>
+                        <div class="swiper-slide"><img src="img/slide.png" alt="" class="w-full"></div>
+                        <div class="swiper-slide"><img src="img/slide.png" alt="" class="w-full"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="grid grid-cols-2 gap-x-[20px] mt-[30px]">
+                    <img src="img/about_1.png" alt="" class="w-full">
+                    <img src="img/about_2.png" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="">
+                <h2 class="font-Blogger font-medium text-[45px] leading-[50px]">Немного <span
+                        class="text-[#FF7A01] font-Script font-normal text-[45px] leading-[89px]">обо мне</span></h2>
+                <h3 class="mt-[50px] font-bold text-[25px] leading-[35px]">Привет, я Гордей</h3>
+                <div class="mt-[15px]">
+                    <p class="text-[20px] leading-[26px] font-normal font-Blogger not-italic text-justify">Каждое утро я&nbsp;встаю
+                        с&nbsp;левой ноги. Она у&nbsp;меня здоровая. <span class="font-medium">А&nbsp;правая&nbsp;&mdash; особенная</span>.
+                        Ею&nbsp;очень удобно забивать голы. Да-да, я&nbsp;играю в&nbsp;футбол и&nbsp;хожу с&nbsp;дедушкой
+                        на&nbsp;рыбалку, хотя все удивляются. Мама говорит, что однажды моя нога перестанет быть
+                        волшебной, <span class="font-medium">и&nbsp;я&nbsp;стану обычным здоровым ребенком.</span></p>
+                    <p class="pt-[20px] text-[20px] leading-[26px] font-normal font-Blogger not-italic text-justify">
+                        Обаятельный, энергичный, светло-русый, голубоглазый мальчуган. Гордей обладает необыкновенной
+                        <span class="font-medium">&laquo;магической силой&raquo;&nbsp; </span> &mdash; он&nbsp;может
+                        проникнуть в&nbsp;самое сердце любого человека, ему достаточно лишь улыбнуться. Но&nbsp;не&nbsp;все
+                        в&nbsp;жизни маленького очаровашки&nbsp;&mdash; так просто, легко и&nbsp;непринужденно. За&nbsp;свои
+                        <span class="font-medium">3&nbsp;года </span>жизни, Гордей пережил много слез и&nbsp;боли,
+                        прошел через множество испытаний, которых хватит на&nbsp;целую книгу&nbsp;&mdash;<span
+                            class="font-medium"> 10&nbsp;подвигов Гордея.</span></p>
+                    <p class="pt-[28px] text-[20px] leading-[26px] font-normal font-Blogger not-italic text-justify">
+                        Самое сложное решение в&nbsp;жизни&nbsp;&mdash; бороться с&nbsp;болезнью, несмотря ни&nbsp;на&nbsp;что,
+                        вместе&nbsp;&mdash; каждый день и&nbsp;час. Кроме боли, переживаний и&nbsp;слез в&nbsp;их</p>
+                </div>
+                <a href="#"
+                   class="font-medium text-[20px] leading-[45px] text-[#FFFFFF] uppercase inline-block bg-[#FF7A01] rounded-[35px] px-[41px] py-[8px] mt-[55px]">Пожертвовать</a>
+            </div>
+        </div>
+    </div>
 </section>
+
+<section class="mt-[50px]">
+    <div class="container mx-auto relative">
+        <div class="bg-[#FFFFFF] rounded-[18px] bg-middle font-medium text-[20px] text-center leading-[30px] max-h-[309px] py-[65px] px-[100px] box-border relative">
+            Гордей мечтает <span class="text-[#FF7A01]">твердо стоять на&nbsp;обеих ногах</span>. Это очень сложно
+            сделать, когда правая нога короче
+            левой <span class="text-[#FF7A01]"> на&nbsp;15&nbsp;см</span>! Но&nbsp;Гордей верит в&nbsp;новогоднее чудо и&nbsp;Санту
+            Клауса. Ты&nbsp;можешь стать секретным
+            Сантой и&nbsp;исполнить мечту мальчика&nbsp;&mdash; иметь одинаковые ноги.<span class="text-[#FF7A01]">Поможем Гордею </span>попасть
+            на&nbsp;операцию!
+            <a href="#"
+               class="font-medium text-[20px] leading-[45px] text-[#FFFFFF] uppercase inline-block bg-[#FF7A01] rounded-[35px] px-[41px] py-[8px] mt-[30px]">Пожертвовать</a>
+            <img src="img/fir-tree.png" alt="" class="absolute right-[0px] bottom-[0px]">
+            <img src="img/santa.png" alt="" class="absolute left-[0px] bottom-[0px]">
+
+        </div>
+    </div>
+</section>
+
+<section class="mt-[150px]">
+    <div class="container mx-auto relative">
+        <div class="flex flex-col items-center">
+            <h2 class="font-bold text-[45px] leading-[55px] max-w-[830px] text-center">Подпишись <br> на <span
+                    class="text-[#FF7A01]">автоплатежи</span> и помоги другим детям</h2>
+            <div class="mt-[50px]">
+                <p class="font-bold text-[20px] leading-[26px] text-center">В Новый год исполняются заветные мечты. И
+                    неважно, кто стучит в двери наших домов – дед Мороз, Санта Клаус или Йоулупукки. Доброта не имеет
+                    границ и расстояний. А настоящие волшебники – это мы с вами.</p>
+                <p class="font-bold text-[20px] leading-[26px] text-center mt-[30px]">Стань Сантой сразу для многих
+                    подопечных фонда. Подпишись на регулярные пожертвования в пользу подопечных фонда «География Добра».
+                    Гордей и другие наши дети верят в тебя, наш дорогой волшебник.</p>
+            </div>
+            <div class="grid grid-cols-3 gap-x-[30px] mt-[60px]">
+                <div class="bg-card bg-cover pt-[30px] pb-[45px] px-[20px] flex flex-col items-center justify-center rounded-[20px]">
+                    <img src="img/card-1.png" alt="">
+                    <div class="text-center mt-[40px]">
+                        <p class="text-[20px] leading-[20px] font-bold">Александр Веселов, 1 год</p>
+                        <p class="text-[20px] leading-[20px] pt-[15px]"><span class="font-bold">Диагноз:</span>
+                            спинальная мышечная атрофия, 2 типа</p>
+                        <p class="text-[20px] leading-[20px] pt-[15px]"><span class="font-bold">Сумма сбора:</span> 121
+                            000 000 ₽</p>
+                    </div>
+                    <a href="#"
+                       class="font-medium text-[16px] leading-[16px] text-[#3D3D3D] uppercase inline-block bg-[#FFD400] rounded-[35px] px-[75px] py-[19px] mt-[25px]">Пожертвовать</a>
+                </div>
+                <div class="bg-card bg-cover pt-[30px] pb-[45px] px-[20px] flex flex-col items-center justify-center rounded-[20px]">
+                    <img src="img/card-2.png" alt="">
+                    <div class="text-center mt-[40px]">
+                        <p class="text-[20px] leading-[20px] font-bold">Вероника Сафонова, 1 год </p>
+                        <p class="text-[20px] leading-[20px] pt-[15px]"><span class="font-bold">Диагноз:</span>спинальная
+                            мышечная атрофия, 1 типа</p>
+                        <p class="text-[20px] leading-[20px] pt-[15px]"><span class="font-bold">Сумма сбора:</span> 121
+                            000 000 ₽</p>
+                    </div>
+                    <a href="#"
+                       class="font-medium text-[16px] leading-[16px] text-[#3D3D3D] uppercase inline-block bg-[#FFD400] rounded-[35px] px-[75px] py-[19px] mt-[25px]">Пожертвовать</a>
+                </div>
+                <div class="bg-card bg-cover pt-[30px] pb-[45px] px-[20px] flex flex-col items-center justify-center rounded-[20px]">
+                    <img src="img/card-3.png" alt="">
+                    <div class="text-center mt-[40px]">
+                        <p class="text-[20px] leading-[20px] font-bold">Александр Веселов, 1 год </p>
+                        <p class="text-[20px] leading-[20px] pt-[15px]"><span class="font-bold">Диагноз:</span>
+                            спинальная мышечная атрофия, 2 типа</p>
+                        <p class="text-[20px] leading-[20px] pt-[15px]"><span class="font-bold">Сумма сбора:</span> 121
+                            000 000 ₽</p>
+                    </div>
+                    <a href="#"
+                       class="font-medium text-[16px] leading-[16px] text-[#3D3D3D] uppercase inline-block bg-[#FFD400] rounded-[35px] px-[75px] py-[19px] mt-[25px]">Пожертвовать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-[150px]">
+    <div class="container mx-auto relative">
+        <div class="flex flex-col text-center">
+            <h2 class="font-medium text-[45px] leading-[30px]">Немного <span
+                    class="font-Script font-normal text-[#FF7A01]">фактов</span> о нас</h2>
+            <div class="mt-[60px] bg-facts bg-cover flex flex-row justify-between items-center px-[55px] py-[80px] box-border">
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-[60px] leading-[25px] text-[#FF7A01] font-bold inline">6 лет</div>
+                    <div class="max-w-[250px] text-[22px] leading-[32px] font-medium text-center mt-[30px]">помогаем
+                        людям
+                        в&nbsp;85&nbsp;регионах России
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-[60px] leading-[25px] text-[#FF7A01] font-bold inline">2,419 млрд.</div>
+                    <div class="max-w-[250px] text-[22px] leading-[32px] font-medium text-center mt-[30px]">собрано и&nbsp;направлено
+                        на&nbsp;помощь нуждающимся
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-[60px] leading-[25px] text-[#FF7A01] font-bold inline"><span class="text-[35px]">более</span>
+                        1890
+                    </div>
+                    <div class="max-w-[250px] text-[22px] leading-[32px] font-medium text-center mt-[30px]">человек
+                        получили
+                        своевременную помощь
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <a href="#"
+               class="font-medium text-[20px] leading-[45px] text-[#FFFFFF] uppercase inline-block bg-[#FF7A01] rounded-[35px] px-[41px] py-[8px] mt-[50px] ">Пожертвовать</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="mt-[150px]">
+    <div class="container mx-auto relative">
+    <div class="flex flex-col items-center justify-center">
+        <h2 class="font-medium text-[45px] leading-[55px] max-w-[830px] text-center">Сделай пожертвование&nbsp;&mdash; стань секретным Сантой для Гордея!</h2>
+
+        <div class="mt-[95px] bg-[#FFFFFF] p-[150px] w-full relative shadow-md rounded-[20px]">
+            <form action="">
+                <div>
+                    <span class="font-medium text-[38px] leading-[38px] block mb-[30px]">Способ оплаты</span>
+                    <div class="flex items-center justify-between mt-[55px]">
+                        <div>
+                            <input type="radio" name="pay_method" value="card" id="pay_method_card" class="peer hidden" checked>
+                            <label for="pay_method_card" class="border-[2px] border-[#FFF3BF] py-[25px] px-[72px] font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">Перевод по карте</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="pay_method" value="sms" id="pay_method_sms" class="peer hidden">
+                            <label for="pay_method_sms" class="border-[2px] border-[#FFF3BF] py-[25px] px-[72px] font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">СМС пожертвование</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-[80px]">
+                    <span class="font-medium text-[38px] leading-[38px] block mb-[30px]">Сумма пожертвования</span>
+                    <div class="grid grid-cols-3 grid-rows-2 gap-[30px] mt-[55px]">
+                        <div>
+                            <input type="radio" name="pay_method" value="150" id="pay_amount_1" class="peer hidden" checked>
+                            <label for="pay_amount_1" class="w-full border-[2px] border-[#FFF3BF] py-[25px] px-[95px] font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">150 ₽</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pay_method" value="150" id="pay_amount_2" class="peer hidden" checked>
+                            <label for="pay_amount_2" class="w-full border-[2px] border-[#FFF3BF] py-[25px] px-[95px] font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">150 ₽</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pay_method" value="150" id="pay_amount_3" class="peer hidden" checked>
+                            <label for="pay_amount_3" class="w-full border-[2px] border-[#FFF3BF] py-[25px] px-[95px] font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">150 ₽</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pay_method" value="150" id="pay_amount_4" class="peer hidden" checked>
+                            <label for="pay_amount_4" class="w-full border-[2px] border-[#FFF3BF] py-[25px] px-[95px] font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">150 ₽</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pay_method" value="150" id="pay_amount_5" class="peer hidden" checked>
+                            <label for="pay_amount_5" class="w-full border-[2px] border-[#FFF3BF] py-[25px] font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">150 ₽</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="pay_method" value="150" id="pay_amount_6" class="peer hidden" checked>
+                            <label for="pay_amount_6" class="w-full border-[2px] border-[#FFF3BF] py-[25px]font-medium text-[32px] leading-[32px] rounded-[8px] cursor-pointer peer-checked:text-[#FF7A01] peer-checked:border-[#FF7A01]">150 ₽</label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </form>
+
+            <img src="img/present.png" class="w-[69px] h-[69px] absolute top-[-25px] right-[30px]">
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>

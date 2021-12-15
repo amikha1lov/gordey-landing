@@ -13,6 +13,11 @@
         font-weight: 400;
         color: #3D3D3D;
     }
+    .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+        background: #ffffff !important;
+    }
 
 }
 
