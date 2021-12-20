@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb51abd-8f63-4104-9b3c-40f9d9169b3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/icons/fb_gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/insta_gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/ok_gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/vk_gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/youtube_gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/present-form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/santa_thanks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/111.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/card-bg-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/card_kids_mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer_start_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer_start_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/garland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gordey_pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hero-bg-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hero-bg-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/pay_close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/menu-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/prize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/santa_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/santa_hat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/star-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micromodal/micromodal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micromodal/micromodal.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/swiper-bundle.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/swiper-bundle.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tailwind.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/swiper-bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/swiper-bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +82,10 @@
       <workItem from="1639643301275" duration="55000" />
       <workItem from="1639644658719" duration="3906000" />
       <workItem from="1639662434860" duration="4978000" />
+      <workItem from="1639921364364" duration="10277000" />
+      <workItem from="1639937287565" duration="603000" />
+      <workItem from="1639986379379" duration="7482000" />
+      <workItem from="1639995055563" duration="10426000" />
     </task>
     <servers />
   </component>
